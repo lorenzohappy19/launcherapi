@@ -1,9 +1,0 @@
-Api = launcher.getApi
-LoryEngineApi = commit.thestore-engine-lory
-
-launcher.getStatus then
-  xsollalogin.Getlogin.Token(log)
-  call.api
-  LoryEngineApi.start
-
-return
